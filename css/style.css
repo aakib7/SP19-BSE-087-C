@@ -17,7 +17,6 @@ body{
     background-color: #48AFFF;
     height:75px;
     width: 100%;
-    /* position:fixed; */
     z-index: 10;
     opacity: 0.80;
 }
@@ -420,6 +419,54 @@ body{
 }
 footer .footer{
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #48afff;
+}
+.copywrite{
+    float: left;
+    width: 20%;
+    height: 30px;
+    color: #fff;
+    
+}
+.copywrite span{
+    display: inline-block;
+    margin-left:50px;
+    margin-top: 30px;
+    font-size:20px;
+    
+}
+.sponsers{
+    float: left;
+    width: 40%;
+    height: 50%;
+    
+}
+.sponsers img{
+    width: 300px;
+    height: 30px;
+    margin-left: 189px;
+    margin-top: 25px;
+}
+.footer-icon{
+    float: left;
+    width: 40%;
+    height: 40px;
+    color: #fff;
+    padding-left: 176px;
+    padding-top: 22px;
+}
+.fa-facebook{
+    margin-left:38px;
+}
+.fa-instagram{
+    margin-left:38px;
+}
+.fa-telegram{
+    margin-left:38px;
+}
+.footer::after{
+    content: " ";
+    display: block;
+    clear: both;
 }
